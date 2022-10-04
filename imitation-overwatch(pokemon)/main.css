@@ -1,0 +1,67 @@
+body {
+  height: 100vh;
+  background-image: url(./images/6ab95831-7075-4b6f-92b6-c04bd3d95a91.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+.container {
+  padding: 100px 0;
+}
+.container .characters {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 500px;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 100px 60px;
+}
+.container .characters .character {
+  width: 80px;
+  height: 84px;
+  margin: 4px;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  background-color: black
+  ;
+  transform: skewX(-14deg);
+  transition: 
+      transform .7s;
+      background-color: .5s;
+  overflow: hidden;
+}
+.container .characters .character:hover {
+  background-color: #fc2c07;
+  transform: skewX(-14deg) scale(1.5);
+  z-index: 1;
+}
+.container .characters .character .image {
+  width: 140%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.container .characters .character:nth-child(1) .image {background-image: url(./images/1.webp);}
+.container .characters .character:nth-child(2) .image {background-image: url(./images/2.webp);}
+.container .characters .character:nth-child(3) .image {background-image: url(./images/3.png);}
+.container .characters .character:nth-child(4) .image {background-image: url(./images/4.png);}
+.container .characters .character:nth-child(5) .image {background-image: url(./images/5.png);}
+.container .characters .character:nth-child(6) .image {background-image: url(./images/6.jpg);}
+.container .characters .character:nth-child(7) .image {background-image: url(./images/7.jpg);}
+.container .characters .character:nth-child(8) .image {background-image: url(./images/8.jpg);}
+.container .characters .character:nth-child(9) .image {background-image: url(./images/9.png);}
+.container .characters .character:nth-child(10) .image {background-image: url(./images/10.png);}
+.container .characters .character:nth-child(11) .image {background-image: url(./images/11.png);}
+.container .characters .character:nth-child(12) .image {background-image: url(./images/12.png);}
+.container .characters .character:nth-child(13) .image {background-image: url(./images/13.png);}
+
+.container .logo {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+.container .logo img {
+  width: 100%;
+}
